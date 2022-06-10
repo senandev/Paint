@@ -1,0 +1,92 @@
+/* #canvas{
+    background-color: aquamarine;
+    width: 500px;
+    height: 500px;
+    margin:50px 50px ;
+
+} */
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#canvas {
+    border: 1px solid black;
+    background-color: aliceblue;
+}
+
+.content {
+    background-size: cover;
+    display: flex;
+}
+
+.titles {
+    margin: 30px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.color_cont {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    height: 100px;
+}
+#color{
+    width: 7rem;
+    height: 3rem;
+    border-radius: 20px;
+}
+#color:hover{
+    cursor: pointer;
+    border-color: rgb(143, 0, 107);
+}
+#color_button{
+    font-size: 26px;
+    font-weight: 400;
+    width: 5rem;
+    height: 3rem;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 15px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#color_button:hover{
+    cursor: pointer;
+    border-color: rgb(143, 0, 107);
+}
+
+.save_button {
+    font-size: 26px;
+    font-weight: 400;
+    width: 15.68rem;
+    height: 4.37rem;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 15px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.save_button:hover {
+    cursor: pointer;
+    transform: scale(1.1,1.1);
+    transition: all 0.8s;
+    color: rgb(4, 15, 109);
+    border-color: rgb(143, 0, 107);
+}
+.range_line{
+    font-size: 30px;
+}
+#range{
+    width: 220px;
+}
